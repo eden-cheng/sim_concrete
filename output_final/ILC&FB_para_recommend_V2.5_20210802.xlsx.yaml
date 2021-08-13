@@ -1,0 +1,408 @@
+day_sedan_sedan.yaml:
+  ILC_16_22:
+    group1:
+      para_action:
+        K_relative_distance:
+        - 5m
+        para_hv_init_speed:
+        - 80/kph
+        - 60kph
+      para_odd:
+        default:
+        - any
+  ILC_16_23:
+    group1:
+      para_action:
+        K_relative_distance:
+        - 5m
+        para_hv_init_speed:
+        - 80/kph
+        - 60kph
+      para_odd:
+        default:
+        - any
+noload_truck.yaml:
+  ILC_16_22:
+    group1:
+      para_action:
+        'K_CONES_NUMBER ':
+        - '1'
+        K_CONES_NUMBER_DISTANCE: []
+        K_FALLBACK_OBSTACLE_DISTANCE_ON/TO_TRAJECTORY_I:
+        - 150m
+        K_FALLBACK_OBSTACLE_DISTANCE_ON/TO_TRAJECTORY_II:
+        - 100m
+        para_hv_init_speed:
+        - 100kph
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+        uphill:
+        - any
+        downhill:
+        - any
+  ILC_16_23:
+    group1:
+      para_action:
+        K_FALLBACK_CONSTRUCTION_DISTANCE_ON/TO_TRAJECTORY_III:
+        - 50m
+        para_hv_init_speed:
+        - 100kph
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+        uphill:
+        - any
+        downhill:
+        - any
+  ILC_17_7:
+    group1:
+      para_action:
+        k_HV_speed:
+        - 100kph
+      para_odd:
+        default:
+        - any
+  ILC_18_1:
+    group1:
+      para_action:
+        k_relative_dis:
+        - 200m
+        k_tv_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+  ILC_18_5:
+    group1:
+      para_action:
+        k_TV1_speed:
+        - 100kph
+        k_TV2_speed01:
+        - 100kph
+        k_TV2_speed02:
+        - 70kph
+        k_TV2_acc:
+        - -5mpss
+        'K_CONES_NUMBER ':
+        - '1'
+        K_CONES_NUMBER_DISTANCE: []
+        K_FALLBACK_OBSTACLE_DISTANCE_ON/TO_TRAJECTORY_III:
+        - 50m
+      para_odd:
+        default:
+        - any
+  ILC_18_11:
+    group1:
+      para_action:
+        k_TV1_speed01:
+        - 100kph
+        k_TV1_speed02:
+        - 60kph
+        k_TV1_acc:
+        - -7mpss
+        k_TV2_speed01:
+        - 70kph
+        k_TV2_speed02:
+        - 100kph
+        k_TV2_acc:
+        - 5mpss
+        K_FALLBACK_CONSTRUCTION_DISTANCE_ON/TO_TRAJECTORY_II:
+        - 100m
+        K_FALLBACK_CONSTRUCTION_DISTANCE_ON/TO_TRAJECTORY_III:
+        - 50m
+      para_odd:
+        default:
+        - any
+  ILC_18_14:
+    group1:
+      para_action:
+        k_TV1_speed:
+        - 0kph
+        k_TV2_speed01:
+        - 70kph
+        k_TV2_speed02:
+        - 100kph
+        k_TV2_acc:
+        - 3mpss
+      para_odd:
+        default:
+        - any
+  ILC_19_13:
+    group1:
+      para_action:
+        k_HV_speed:
+        - 80kph
+        k_TV1_speed:
+        - 100kph
+        k_TV2_speed:
+        - 90kph
+      para_odd:
+        default:
+        - any
+noload_sedan.yaml:
+  ILC_16_22:
+    group1:
+      para_action:
+        'K_CONES_NUMBER ':
+        - '1'
+        K_CONES_NUMBER_DISTANCE: []
+        K_FALLBACK_OBSTACLE_DISTANCE_ON/TO_TRAJECTORY_I:
+        - 150m
+        K_FALLBACK_OBSTACLE_DISTANCE_ON/TO_TRAJECTORY_II:
+        - 100m
+        para_hv_init_speed:
+        - 80kph
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+        uphill:
+        - any
+        downhill:
+        - any
+  ILC_16_23:
+    group1:
+      para_action:
+        K_FALLBACK_CONSTRUCTION_DISTANCE_ON/TO_TRAJECTORY_III:
+        - 50m
+        para_hv_init_speed:
+        - 80kph
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+        uphill:
+        - any
+        downhill:
+        - any
+  ILC_17_7:
+    group1:
+      para_action:
+        k_HV_speed:
+        - 80kph
+      para_odd:
+        default:
+        - any
+  ILC_18_1:
+    group1:
+      para_action:
+        k_relative_dis:
+        - 200m
+        k_tv_speed:
+        - 10kph
+      para_odd:
+        default:
+        - any
+  ILC_18_5:
+    group1:
+      para_action:
+        k_TV1_speed:
+        - 90kph
+        k_TV2_speed01:
+        - 100kph
+        k_TV2_speed02:
+        - 70kph
+        k_TV2_acc:
+        - -4mpss
+        'K_CONES_NUMBER ':
+        - '1'
+        K_CONES_NUMBER_DISTANCE: []
+        K_FALLBACK_OBSTACLE_DISTANCE_ON/TO_TRAJECTORY_III:
+        - 50m
+      para_odd:
+        default:
+        - any
+  ILC_18_11:
+    group1:
+      para_action:
+        k_TV1_speed01:
+        - 90kph
+        k_TV1_speed02:
+        - 60kph
+        k_TV1_acc:
+        - -6mpss
+        k_TV2_speed01:
+        - 70kph
+        k_TV2_speed02:
+        - 100kph
+        k_TV2_acc:
+        - 4mpss
+        K_FALLBACK_CONSTRUCTION_DISTANCE_ON/TO_TRAJECTORY_II:
+        - 100m
+        K_FALLBACK_CONSTRUCTION_DISTANCE_ON/TO_TRAJECTORY_III:
+        - 50m
+      para_odd:
+        default:
+        - any
+  ILC_18_14:
+    group1:
+      para_action:
+        k_TV1_speed:
+        - 0kph
+        k_TV2_speed01:
+        - 70kph
+        k_TV2_speed02:
+        - 100kph
+        k_TV2_acc:
+        - 3mpss
+      para_odd:
+        default:
+        - any
+  ILC_19_13:
+    group1:
+      para_action:
+        k_HV_speed:
+        - 100kph
+        k_TV1_speed:
+        - 100kph
+        k_TV2_speed:
+        - 80kph
+      para_odd:
+        default:
+        - any
+day_sedan_truck.yaml:
+  ILC_18_1:
+    group1:
+      para_action:
+        K_relative_distance:
+        - 140m
+        K_lane:
+        - "\u5DE6\u8F66\u9053"
+        - "\u53F3\u8F66\u9053"
+        para_tv1_init_speed:
+        - 60kph
+        para_tv2_init_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+noload_none.yaml:
+  ILC_16_22:
+    group1:
+      para_action:
+        'K_CONES_NUMBER ':
+        - '1'
+        K_CONES_NUMBER_DISTANCE: []
+        K_FALLBACK_OBSTACLE_DISTANCE_ON/TO_TRAJECTORY_I:
+        - 150m
+        K_FALLBACK_OBSTACLE_DISTANCE_ON/TO_TRAJECTORY_II:
+        - 100m
+        para_hv_init_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+        uphill:
+        - any
+        downhill:
+        - any
+  ILC_16_23:
+    group1:
+      para_action:
+        K_FALLBACK_CONSTRUCTION_DISTANCE_ON/TO_TRAJECTORY_III:
+        - 50m
+        para_hv_init_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+        uphill:
+        - any
+        downhill:
+        - any
+  ILC_17_7:
+    group1:
+      para_action:
+        k_HV_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  ILC_18_1:
+    group1:
+      para_action:
+        k_relative_dis:
+        - 200m
+        k_tv_speed:
+        - 20kph
+      para_odd:
+        default:
+        - any
+  ILC_18_5:
+    group1:
+      para_action:
+        k_TV1_speed:
+        - 80kph
+        k_TV2_speed01:
+        - 120kph
+        k_TV2_speed02:
+        - 70kph
+        k_TV2_acc:
+        - -3mpss
+        'K_CONES_NUMBER ':
+        - '1'
+        K_CONES_NUMBER_DISTANCE: []
+        K_FALLBACK_OBSTACLE_DISTANCE_ON/TO_TRAJECTORY_III:
+        - 50m
+      para_odd:
+        default:
+        - any
+  ILC_18_11:
+    group1:
+      para_action:
+        k_TV1_speed01:
+        - 100kph
+        k_TV1_speed02:
+        - 60kph
+        k_TV1_acc:
+        - -5mpss
+        k_TV2_speed01:
+        - 70kph
+        k_TV2_speed02:
+        - 120kph
+        k_TV2_acc:
+        - 3mpss
+        K_FALLBACK_CONSTRUCTION_DISTANCE_ON/TO_TRAJECTORY_II:
+        - 100m
+        K_FALLBACK_CONSTRUCTION_DISTANCE_ON/TO_TRAJECTORY_III:
+        - 50m
+      para_odd:
+        default:
+        - any
+  ILC_18_14:
+    group1:
+      para_action:
+        k_TV1_speed:
+        - 0kph
+        k_TV2_speed01:
+        - 80kph
+        k_TV2_speed02:
+        - 120kph
+        k_TV2_acc:
+        - 5mpss
+      para_odd:
+        default:
+        - any
+  ILC_19_13:
+    group1:
+      para_action:
+        k_HV_speed:
+        - 100kph
+        k_TV1_speed:
+        - 120kph
+        k_TV2_speed:
+        - 100kph
+      para_odd:
+        default:
+        - any

@@ -1,0 +1,722 @@
+tag_fixed_basic_method:
+- HIL
+- vehicle
+tag_fixed_basic_map:
+- K
+tag_fixed_basic_feature:
+- CC
+- ILC
+- ALC
+- nudge
+- power_management
+- AD_mode_ON_OFF
+- fallback
+- HMI
+- ad_page_display
+- sensor_wash
+- sensor_cooling
+- DSR
+- data_collection
+- K
+tag_fixed_basic_module:
+- PNC
+- perception
+- localization
+- PNC_loclization
+- PNC_perception
+- PNC_loclization_perception
+- K
+tag_fixed_basic_targetNum:
+- '0'
+para_odd_roadGeo_default:
+- any
+- falt_straight
+para_odd_roadGeo_uphill:
+- K
+para_odd_roadGeo_downhill:
+- K
+para_odd_roadGeo_rightCurve:
+- K
+para_odd_roadGeo_leftCurve:
+- K
+para_odd_illumination_day:
+- standard
+- sunrise
+- sunset
+- K
+para_odd_illumination_night:
+- standard
+- w/_light
+- w/o_light
+- K
+para_odd_weather_sunny:
+- standard
+- K
+para_odd_weather_rainy:
+- standard
+- light
+- middle
+- heavy
+- K
+para_hv_init_speed:
+- K
+para_hv_init_deviation:
+- K
+para_hv_init_lane:
+- default
+- left_most
+- right_most
+- mid_lane
+para_hv_init_state:
+- ready
+- engage
+para_hv_init_reserve01:
+- K
+para_hv_init_reserve02:
+- K
+para_hv_init_reserve03:
+- K
+para_hv_init_reserve04:
+- K
+para_hv_init_reserve05:
+- K
+para_hv_action1_type:
+- AD_mode
+- engage_AD
+- lane_change
+- cancel_lane_change
+- read
+- write
+- frameLoss
+- K
+para_hv_action1_triggerTime:
+- K
+para_hv_action1_triggerTTC:
+- K
+para_hv_action1_triggerRelativeTV1:
+- K
+para_hv_action1_triggerRelativeTV2:
+- K
+para_hv_action1_triggerRelativeTunnel:
+- K
+para_hv_action1_triggerRelativeSolideLine:
+- K
+para_hv_action1_triggerEvent:
+- K
+para_hv_action1_triggerDelay:
+- K
+para_hv_action1_triggerCircle:
+- in
+- out
+para_hv_action1_direction:
+- '+1'
+- '-1'
+para_hv_action1_signal:
+- signal_lib
+para_hv_action1_framePara:
+- K
+para_hv_action1_sensor:
+- K
+para_hv_action1_btnTimes:
+- K
+para_hv_action1_msgName:
+- K
+para_hv_action1_msgCycleTime: []
+para_hv_action1_reserve01:
+- K
+para_hv_action1_reserve02:
+- K
+para_hv_action1_reserve03:
+- K
+para_hv_action1_reserve04:
+- K
+para_hv_action1_reserve05:
+- K
+para_hv_action2_type:
+- AD_mode
+- engage_AD
+- lane_change
+- cancel_lane_change
+- read
+- write
+- frameLoss
+- K
+para_hv_action2_triggerTime:
+- K
+para_hv_action2_triggerTTC:
+- K
+para_hv_action2_triggerRelativeTV1:
+- K
+para_hv_action2_triggerRelativeTV2:
+- K
+para_hv_action2_triggerRelativeTunnel:
+- K
+para_hv_action2_triggerRelativeSolideLine:
+- K
+para_hv_action2_triggerEvent:
+- K
+para_hv_action2_triggerDelay:
+- K
+para_hv_action2_triggerCircle:
+- in
+- out
+para_hv_action2_direction:
+- '+1'
+- '-1'
+para_hv_action2_signal:
+- signal_lib
+para_hv_action2_framePara:
+- K
+para_hv_action2_sensor:
+- K
+para_hv_action2_btnTimes:
+- K
+para_hv_action2_msgName:
+- K
+para_hv_action2_msgCycleTime: []
+para_hv_action2_reserve01:
+- K
+para_hv_action2_reserve02:
+- K
+para_hv_action2_reserve03:
+- K
+para_hv_action2_reserve04:
+- K
+para_hv_action2_reserve05:
+- K
+para_hv_action3_type:
+- AD_mode
+- engage_AD
+- lane_change
+- cancel_lane_change
+- read
+- write
+- frameLoss
+- K
+para_hv_action3_triggerTime:
+- K
+para_hv_action3_triggerTTC:
+- K
+para_hv_action3_triggerRelativeTV1:
+- K
+para_hv_action3_triggerRelativeTV2:
+- K
+para_hv_action3_triggerRelativeTunnel:
+- K
+para_hv_action3_triggerRelativeSolideLine:
+- K
+para_hv_action3_triggerEvent:
+- K
+para_hv_action3_triggerDelay:
+- K
+para_hv_action3_triggerCircle:
+- in
+- out
+para_hv_action3_direction:
+- '+1'
+- '-1'
+para_hv_action3_signal:
+- signal_lib
+para_hv_action3_framePara:
+- K
+para_hv_action3_sensor:
+- K
+para_hv_action3_btnTimes:
+- K
+para_hv_action3_msgName:
+- K
+para_hv_action3_msgCycleTime: []
+para_hv_action3_reserve01:
+- K
+para_hv_action3_reserve02:
+- K
+para_hv_action3_reserve03:
+- K
+para_hv_action3_reserve04:
+- K
+para_hv_action3_reserve05:
+- K
+para_tv1_init_type:
+- sedan
+- truck
+- bus
+- pedestrian
+- bike
+- K
+para_tv1_init_speed:
+- K
+para_tv1_init_relativeHV:
+- K
+para_tv1_init_relativeTV2:
+- K
+para_tv1_init_lane:
+- '0'
+- '-1'
+- '+1'
+para_tv1_init_deviation:
+- K
+para_tv1_init_heading:
+- same
+- opposite
+para_tv1_init_reserve01:
+- K
+para_tv1_init_reserve02:
+- K
+para_tv1_init_reserve03:
+- K
+para_tv1_init_reserve04:
+- K
+para_tv1_init_reserve05:
+- K
+para_tv1_action1_type:
+- speed_change
+- lane_change
+- K
+para_tv1_action1_speed:
+- K
+para_tv1_action1_acc:
+- K
+para_tv1_action1_direction:
+- '+1'
+- '-1'
+para_tv1_action1_triggerRelativeHV:
+- K
+para_tv1_action1_triggerRelativeTV2:
+- K
+para_tv1_action1_triggerDelay:
+- K
+para_tv1_action1_triggerEvent:
+- K
+para_tv1_action1_triggerCircle:
+- in
+- out
+para_tv1_action1_triggerTime:
+- K
+para_tv1_action1_triggerTTC:
+- K
+para_tv1_action1_deviation:
+- K
+para_tv1_action1_duration:
+- K
+para_tv1_action1_reserve01:
+- K
+para_tv1_action1_reserve02:
+- K
+para_tv1_action1_reserve03:
+- K
+para_tv1_action1_reserve04:
+- K
+para_tv1_action1_reserve05:
+- K
+para_tv1_action2_type:
+- speed_change
+- lane_change
+- K
+para_tv1_action2_speed:
+- K
+para_tv1_action2_acc:
+- K
+para_tv1_action2_direction:
+- '+1'
+- '-1'
+para_tv1_action2_triggerRelativeHV:
+- K
+para_tv1_action2_triggerRelativeTV2:
+- K
+para_tv1_action2_triggerDelay:
+- K
+para_tv1_action2_triggerEvent:
+- K
+para_tv1_action2_triggerCircle:
+- in
+- out
+para_tv1_action2_triggerTime:
+- K
+para_tv1_action2_triggerTTC:
+- K
+para_tv1_action2_deviation:
+- K
+para_tv1_action2_duration:
+- K
+para_tv1_action2_reserve01:
+- K
+para_tv1_action2_reserve02:
+- K
+para_tv1_action2_reserve03:
+- K
+para_tv1_action2_reserve04:
+- K
+para_tv1_action2_reserve05:
+- K
+para_tv1_action3_type:
+- speed_change
+- lane_change
+- K
+para_tv1_action3_speed:
+- K
+para_tv1_action3_acc:
+- K
+para_tv1_action3_direction:
+- '+1'
+- '-1'
+para_tv1_action3_triggerRelativeHV:
+- K
+para_tv1_action3_triggerRelativeTV2:
+- K
+para_tv1_action3_triggerDelay:
+- K
+para_tv1_action3_triggerEvent:
+- K
+para_tv1_action3_triggerCircle:
+- in
+- out
+para_tv1_action3_triggerTime:
+- K
+para_tv1_action3_triggerTTC:
+- K
+para_tv1_action3_deviation:
+- K
+para_tv1_action3_duration:
+- K
+para_tv1_action3_reserve01:
+- K
+para_tv1_action3_reserve02:
+- K
+para_tv1_action3_reserve03:
+- K
+para_tv1_action3_reserve04:
+- K
+para_tv1_action3_reserve05:
+- K
+para_tv1_action4_type:
+- speed_change
+- lane_change
+- K
+para_tv1_action4_speed:
+- K
+para_tv1_action4_acc:
+- K
+para_tv1_action4_direction:
+- '+1'
+- '-1'
+para_tv1_action4_triggerRelativeHV:
+- K
+para_tv1_action4_triggerRelativeTV2:
+- K
+para_tv1_action4_triggerDelay:
+- K
+para_tv1_action4_triggerEvent:
+- K
+para_tv1_action4_triggerCircle:
+- in
+- out
+para_tv1_action4_triggerTime:
+- K
+para_tv1_action4_triggerTTC:
+- K
+para_tv1_action4_deviation:
+- K
+para_tv1_action4_duration:
+- K
+para_tv1_action4_reserve01:
+- K
+para_tv1_action4_reserve02:
+- K
+para_tv1_action4_reserve03:
+- K
+para_tv1_action4_reserve04:
+- K
+para_tv1_action4_reserve05:
+- K
+para_tv2_init_type:
+- sedan
+- truck
+- bus
+- pedestrian
+- bike
+- K
+para_tv2_init_speed:
+- K
+para_tv2_init_relativeHV:
+- K
+para_tv2_init_relativeTV1:
+- K
+para_tv2_init_lane:
+- '0'
+- '-1'
+- '+1'
+para_tv2_init_deviation:
+- K
+para_tv2_init_heading:
+- same
+- opposite
+para_tv2_init_reserve01:
+- K
+para_tv2_init_reserve02:
+- K
+para_tv2_init_reserve03:
+- K
+para_tv2_init_reserve04:
+- K
+para_tv2_init_reserve05:
+- K
+para_tv2_action1_type:
+- speed_change
+- lane_change
+- K
+para_tv2_action1_speed:
+- K
+para_tv2_action1_acc:
+- K
+para_tv2_action1_direction:
+- '+1'
+- '-1'
+para_tv2_action1_triggerRelativeHV:
+- K
+para_tv2_action1_triggerRelativeTV1:
+- K
+para_tv2_action1_triggerDelay:
+- K
+para_tv2_action1_triggerEvent:
+- K
+para_tv2_action1_triggerCircle:
+- in
+- out
+para_tv2_action1_triggerTime:
+- K
+para_tv2_action1_triggerTTC:
+- K
+para_tv2_action1_deviation:
+- K
+para_tv2_action1_duration:
+- K
+para_tv2_action1_reserve01:
+- K
+para_tv2_action1_reserve02:
+- K
+para_tv2_action1_reserve03:
+- K
+para_tv2_action1_reserve04:
+- K
+para_tv2_action1_reserve05:
+- K
+para_tv2_action2_type:
+- speed_change
+- lane_change
+- K
+para_tv2_action2_speed:
+- K
+para_tv2_action2_acc:
+- K
+para_tv2_action2_direction:
+- '+1'
+- '-1'
+para_tv2_action2_triggerRelativeHV:
+- K
+para_tv2_action2_triggerRelativeTV1:
+- K
+para_tv2_action2_triggerDelay:
+- K
+para_tv2_action2_triggerEvent:
+- K
+para_tv2_action2_triggerCircle:
+- in
+- out
+para_tv2_action2_triggerTime:
+- K
+para_tv2_action2_triggerTTC:
+- K
+para_tv2_action2_deviation:
+- K
+para_tv2_action2_duration:
+- K
+para_tv2_action2_reserve01:
+- K
+para_tv2_action2_reserve02:
+- K
+para_tv2_action2_reserve03:
+- K
+para_tv2_action2_reserve04:
+- K
+para_tv2_action2_reserve05:
+- K
+para_tv2_action3_type:
+- speed_change
+- lane_change
+- K
+para_tv2_action3_speed:
+- K
+para_tv2_action3_acc:
+- K
+para_tv2_action3_direction:
+- '+1'
+- '-1'
+para_tv2_action3_triggerRelativeHV:
+- K
+para_tv2_action3_triggerRelativeTV1:
+- K
+para_tv2_action3_triggerDelay:
+- K
+para_tv2_action3_triggerEvent:
+- K
+para_tv2_action3_triggerCircle:
+- in
+- out
+para_tv2_action3_triggerTime:
+- K
+para_tv2_action3_triggerTTC:
+- K
+para_tv2_action3_deviation:
+- K
+para_tv2_action3_duration:
+- K
+para_tv2_action3_reserve01:
+- K
+para_tv2_action3_reserve02:
+- K
+para_tv2_action3_reserve03:
+- K
+para_tv2_action3_reserve04:
+- K
+para_tv2_action3_reserve05:
+- K
+para_tv2_action4_type:
+- speed_change
+- lane_change
+- K
+para_tv2_action4_speed:
+- K
+para_tv2_action4_acc:
+- K
+para_tv2_action4_direction:
+- '+1'
+- '-1'
+para_tv2_action4_triggerRelativeHV:
+- K
+para_tv2_action4_triggerRelativeTV1:
+- K
+para_tv2_action4_triggerDelay:
+- K
+para_tv2_action4_triggerEvent:
+- K
+para_tv2_action4_triggerCircle:
+- in
+- out
+para_tv2_action4_triggerTime:
+- K
+para_tv2_action4_triggerTTC:
+- K
+para_tv2_action4_deviation:
+- K
+para_tv2_action4_duration:
+- K
+para_tv2_action4_reserve01:
+- K
+para_tv2_action4_reserve02:
+- K
+para_tv2_action4_reserve03:
+- K
+para_tv2_action4_reserve04:
+- K
+para_tv2_action4_reserve05:
+- K
+para_oddChange_action1_type:
+- rain
+- wind
+para_oddChange_action1_rainPara:
+- K
+para_oddChange_action1_windPara:
+- K
+para_oddChange_action1_triggerTime:
+- K
+para_oddChange_action1_triggerDelay:
+- K
+para_oddChange_action1_triggerEvent:
+- K
+para_oddChange_action1_duration:
+- K
+para_oddChange_action1_reserve01:
+- K
+para_oddChange_action1_reserve02:
+- K
+para_oddChange_action1_reserve03:
+- K
+para_oddChange_action1_reserve04:
+- K
+para_oddChange_action1_reserve05:
+- K
+para_oddChange_action2_type:
+- rain
+- wind
+para_oddChange_action2_rainPara:
+- K
+para_oddChange_action2_windPara:
+- K
+para_oddChange_action2_triggerTime:
+- K
+para_oddChange_action2_triggerDelay:
+- K
+para_oddChange_action2_triggerEvent:
+- K
+para_oddChange_action2_duration:
+- K
+para_oddChange_action2_reserve01:
+- K
+para_oddChange_action2_reserve02:
+- K
+para_oddChange_action2_reserve03:
+- K
+para_oddChange_action2_reserve04:
+- K
+para_oddChange_action2_reserve05:
+- K
+para_oddChange_action3_type:
+- rain
+- wind
+para_oddChange_action3_rainPara:
+- K
+para_oddChange_action3_windPara:
+- K
+para_oddChange_action3_triggerTime:
+- K
+para_oddChange_action3_triggerDelay:
+- K
+para_oddChange_action3_triggerEvent:
+- K
+para_oddChange_action3_duration:
+- K
+para_oddChange_action3_reserve01:
+- K
+para_oddChange_action3_reserve02:
+- K
+para_oddChange_action3_reserve03:
+- K
+para_oddChange_action3_reserve04:
+- K
+para_oddChange_action3_reserve05:
+- K
+para_oddChange_action4_type:
+- rain
+- wind
+para_oddChange_action4_rainPara:
+- K
+para_oddChange_action4_windPara:
+- K
+para_oddChange_action4_triggerTime:
+- K
+para_oddChange_action4_triggerDelay:
+- K
+para_oddChange_action4_triggerEvent:
+- K
+para_oddChange_action4_duration:
+- K
+para_oddChange_action4_reserve01:
+- K
+para_oddChange_action4_reserve02:
+- K
+para_oddChange_action4_reserve03:
+- K
+para_oddChange_action4_reserve04:
+- K
+para_oddChange_action4_reserve05:
+- K

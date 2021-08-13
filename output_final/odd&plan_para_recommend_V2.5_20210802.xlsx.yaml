@@ -1,0 +1,9 @@
+day_sunny_highway_noload.yaml:
+  odd&plan_1_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any

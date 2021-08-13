@@ -1,0 +1,64 @@
+###手动维护
+
+#case库的行列
+lib_case_first:
+  id_column: A
+  title_row: 4
+
+#para推荐库的行列
+lib_para_recommend_first:
+  id_column: A
+  title_row: 2
+
+#para范围库的行列
+lib_para_range_first:
+  id_column: A
+  title_row: 1
+
+#para库的列（手动配置），但是行是通过parser得出的
+# lib_para:
+#   noload_none_action: 4
+#   noload_none_odd: 5
+#   noload_sedan_action: 6
+#   noload_sedan_odd: 7
+#   noload_truck_action: 8
+#   noload_truck_odd: 9
+#   payload_none_action: 10
+#   payload_none_odd: 11
+#   payload_sedan_action: 12
+#   payload_sedan_odd: 13
+#   payload_truck_action: 14
+#   payload_truck_odd: 15
+#   noload_night_none_action: 16
+#   noload_night_none_odd: 17
+#   noload_night_sedan_action: 18
+#   noload_night_sedan_odd: 19
+#   noload_night_truck_action: 20
+#   noload_night_truck_odd: 21
+#   payload_night_none_action: 22
+#   payload_night_none_odd: 23
+#   payload_night_sedan_action: 24
+#   payload_night_sedan_odd: 25
+#   payload_night_truck_action: 26
+#   payload_night_truck_odd: 27
+#   tunnel_action: 28
+#   tunnel_odd: 29
+#   sedan_sedan_action: 30
+#   sedan_sedan_odd: 31
+#   truck_truck_action: 32
+#   truck_truck_odd: 33
+#   sedan_truck_action: 34
+#   sedan_truck_odd: 35
+#   truck_sedan_action: 36
+#   truck_sedan_odd: 37
+
+
+#odd库的行列
+lib_odd:
+  # odd_group: 1
+  load: 2
+  illumination: 3
+  weather: 4
+  tv: 5
+  speed_limit: 6
+  area: 7

@@ -1,0 +1,32 @@
+day_sunny_highway_noload_action: 4
+day_sunny_highway_noload_odd: 5
+
+day_sunny_highway_payload_action: 6  #重载
+day_sunny_highway_payload_odd: 7  #重载
+
+day_sunny_tunnel_noload_action: 8   #隧道
+day_sunny_tunnel_noload_odd: 9   #隧道
+
+dawn_sunny_tunnel_noload_action: 10  #黎明
+dawn_sunny_tunnel_noload_odd: 11  #黎明
+
+night&sunny_highway_noload_action: 12   #夜晚
+night&sunny_highway_noload_odd: 13   #夜晚
+
+night_lamp_sunny_highway_noload_action: 14   #夜晚开灯
+night_lamp_sunny_highway_noload_odd: 15   #夜晚开灯
+
+day_rainy_highway_noload_action: 16  #雨天
+day_rainy_highway_noload_odd: 17   #雨天
+
+day+heavy_rainy+highway+noload_action: 18  #暴雨
+day+heavy_rainy+highway+noload_odd: 19  #暴雨
+
+night_rainy_highway_noload_action: 20   #夜晚，雨天
+night_rainy_highway_noload_odd: 21   #夜晚，雨天
+
+night&lamp_rainy_highway_noload_action: 22  #夜晚开灯，雨天
+night&lamp_rainy_highway_noload_odd: 23  #夜晚开灯，雨天
+
+day_rainy_highway_payload_action: 24   #雨天，重载
+day_rainy_highway_payload_odd: 25   #雨天，重载

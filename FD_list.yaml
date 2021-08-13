@@ -1,0 +1,56 @@
+# CC:
+#   excel_path: './input_excel/testcase_0802/CC_TC_LIB_V2.5_20210802.xlsx'
+#   feature:  'CC'
+# AD_ON_OFF:
+#   excel_path: './input_excel/testcase_0802/OnOff_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'ONOFF'
+# override:
+#   excel_path: './input_excel/testcase_0802/Override_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'Override'
+# AD_page_display:
+#   excel_path: './input_excel/testcase_0802/PD_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'PD'
+# power_management:
+#   excel_path: './input_excel/testcase_0802/PM_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'PM'
+# AD_ADAS_interaction:
+#   excel_path: './input_excel/testcase_0802/AD_ADAS_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'interaction'
+# DSR:
+#   excel_path: './input_excel/testcase_0802/DSR_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'DSR'
+# ADU_cooling:
+#   excel_path: './input_excel/testcase_0802/Cooling_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'AC'
+# fallback:
+#   excel_path: './input_excel/testcase_0802/Fallback_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'FB'
+# HMI_actuator:
+#   excel_path: './input_excel/testcase_0802/HMI_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'HMI'
+# sensor_wash:
+#   excel_path: './input_excel/testcase_0802/SensorWash_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'SW'
+# ILC:
+#   excel_path: './input_excel/testcase_0802/ILC_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'ILC'
+# nudge:
+#   excel_path: './input_excel/testcase_0802/nudge_TC_LIB_V1.0_20210802.xlsx'
+#   feature: 'nudge'
+
+odd&con:
+  excel_path: './input_excel/testcase_0802/odd&control_TC_LIB_V2.5_20210802.xlsx'
+  feature: 'odd&con'
+odd&plan:
+  excel_path: './input_excel/testcase_0802/odd&planning_TC_LIB_V2.5_20210802.xlsx'
+  feature: 'odd&plan'
+odd&per:
+  excel_path: './input_excel/testcase_0802/odd&perception_TC_LIB_V2.5_20210802.xlsx'
+  feature: 'odd&per'
+odd&loc:
+  excel_path: './input_excel/testcase_0802/odd&loclization_TC_LIB_V2.5_20210802.xlsx'
+  feature: 'odd&loc'
+
+# 复杂场景:
+#   excel_path: './input_excel/testcase_0802/ILC&FB复杂场景_TC_LIB_V2.5_20210802.xlsx'
+#   feature: 'ILC&FB'

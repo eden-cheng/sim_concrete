@@ -1,0 +1,2925 @@
+day_sedan_sedan.yaml:
+  CC_23_1:
+    group1:
+      para_action:
+        k_tvF_speed01:
+        - 100kph
+        para_tv1_init_speed:
+        - 60kph
+        para_tv2_action3_speed:
+        - 40kph
+        para_tv2_action3_acc:
+        - 3mpss
+        para_tv2_action2_triggerRelative:
+        - 30m
+      para_odd:
+        default:
+        - any
+noload_night_sedan.yaml:
+  CC_4_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        - 70kph
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+      para_odd:
+        uphill:
+        - any
+    group3:
+      para_action:
+        para_tv1_init_speed:
+        - 70kph
+      para_odd:
+        downhill:
+        - any
+  CC_5_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 80kph
+        para_tv1_action2_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_action2_speed:
+        - 40kph
+        para_tv1_action2_acc:
+        - 0.5mpss
+        - 2mpss
+      para_odd:
+        default:
+        - any
+  CC_6_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 1mpss
+        - 3mpss
+        - 7mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 3mpss
+      para_odd:
+        downhill:
+        - any
+    group3:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 7mpss
+      para_odd:
+        default:
+        - any
+  CC_8_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_relativeHV:
+        - 300m
+      para_odd:
+        uphill:
+        - top of slope
+        downhill:
+        - base of slope
+        curve:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        para_tv1_init_relativeHV:
+        - 200m
+      para_odd:
+        uphill:
+        - top of slope
+        downhill:
+        - base of slope
+        curve:
+        - any
+  CC_8_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_relativeHV:
+        - 300m
+      para_odd:
+        uphill:
+        - any
+        downhill:
+        - any
+        curve:
+        - exit
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        para_tv1_init_relativeHV:
+        - 200m
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+  CC_9_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_triggerRelative:
+        - 80m
+        - 50m
+      para_odd:
+        default:
+        - any
+  CC_10_1:
+    group1:
+      para_action:
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 40m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 40kph
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 60m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+    group3:
+      para_action:
+        k_tv_acc:
+        - 5mpss
+        k_relative_dis:
+        - 80m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+  CC_11_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action2_triggerRelative:
+        - 20m
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 120kph
+        para_tv1_action2_triggerRelative:
+        - 20m
+      para_odd:
+        default:
+        - any
+  CC_12_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_duration:
+        - 3s
+      para_odd:
+        default:
+        - any
+  CC_12_2:
+    group1:
+      para_action:
+        k_tv_deviation:
+        - 50cm
+        k_tv_heading:
+        - "20\u5EA6"
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_acc:
+        - 3mpss
+      para_odd:
+        default:
+        - any
+  CC_13_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_deviation:
+        - "30cm(\u538B\u7EBF)"
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_13_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_triggerRelativeHV:
+        - 60m
+        para_tv1_action1_deviation:
+        - "30cm(\u538B\u7EBF)"
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_triggerRelativeHV:
+        - 60m
+        para_tv1_action1_deviation:
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_14_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_init_deviation:
+        - "0cm(\u5C45\u4E2D)"
+      para_odd:
+        default:
+        - any
+        curve:
+        - 700m_left
+  CC_14_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_deviation:
+        - "10cm(\u8D34\u8FD1\u4F46\u4E0D\u5165\u4FB5)"
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_deviation:
+        - "10cm(\u8D34\u8FD1\u4F46\u4E0D\u5165\u4FB5)"
+      para_odd:
+        curve:
+        - 700m_left
+  CC_14_3:
+    group1:
+      para_action:
+        para_tv1_init_deviation:
+        - "0cm(\u5C45\u4E2D)"
+        para_tv1_init_heading:
+        - "20\u5EA6"
+      para_odd:
+        default:
+        - any
+ramp.yaml:
+  CC_1_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        - 40kph
+      para_odd:
+        default:
+        - any
+  CC_22_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        - 40kph
+      para_odd:
+        default:
+        - any
+  CC_22_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        - 40kph
+        k_tv_speed:
+        - 120kph
+        k_relative_dis:
+        - 200m
+      para_odd:
+        default:
+        - any
+  CC_22_3:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        - 40kph
+        k_tv_speed:
+        - 120kph
+        k_relative_dis:
+        - 100m
+      para_odd:
+        default:
+        - any
+  CC_22_4:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+noload_truck.yaml:
+  CC_4_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 70kph
+      para_odd:
+        default:
+        - any
+  CC_5_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 80kph
+        para_tv1_action2_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+  CC_6_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 1mpss
+        - ' 3mpss'
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 3mpss
+      para_odd:
+        downhill:
+        - any
+  CC_8_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_relativeHV:
+        - 300m
+      para_odd:
+        uphill:
+        - top of slope
+        downhill:
+        - base of slope
+        curve:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        para_tv1_init_relativeHV:
+        - 200m
+      para_odd:
+        uphill:
+        - top of slope
+        downhill:
+        - base of slope
+        curve:
+        - any
+  CC_8_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_relativeHV:
+        - 300m
+      para_odd:
+        uphill:
+        - any
+        downhill:
+        - any
+        curve:
+        - exit
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        para_tv1_init_relativeHV:
+        - 200m
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+  CC_9_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_triggerRelative:
+        - 100m
+        - ' 70m'
+      para_odd:
+        default:
+        - any
+  CC_10_1:
+    group1:
+      para_action:
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 80m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+  CC_12_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_duration:
+        - 3s
+      para_odd:
+        default:
+        - any
+  CC_13_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_deviation:
+        - "30cm(\u538B\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_13_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action1_triggerRelativeHV:
+        - 100m
+        para_tv1_action1_deviation:
+        - "30cm(\u538B\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_14_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_init_deviation:
+        - "0cm(\u5C45\u4E2D)"
+      para_odd:
+        curve:
+        - 700m_left
+  CC_14_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        - 20kph
+        para_tv1_init_deviation:
+        - "0cm(\u5C45\u4E2D)"
+      para_odd:
+        default:
+        - any
+payload_none.yaml:
+  CC_1_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+      para_odd:
+        curve:
+        - 700m
+  CC_2_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 30kph
+        - 60kph
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_hv_speed:
+        - 30kph
+      para_odd:
+        uphill:
+        - any
+    group3:
+      para_action:
+        k_hv_speed:
+        - 80kph
+      para_odd:
+        downhill:
+        - any
+  CC_3_1:
+    group1:
+      para_action:
+        k_hv_direction:
+        - left
+        k_hv_speed:
+        - 40kph
+        k_hv_deviation:
+        - 30cm
+        k_hv_heading:
+        - "0(\u4E0D\u504F\u8F6C)"
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_hv_direction:
+        - left
+        k_hv_speed:
+        - 60kph
+        hv_deviation:
+        - 30cm
+        k_hv_heading:
+        - "0(\u4E0D\u504F\u8F6C)"
+      para_odd:
+        curve:
+        - 700m_right
+    group3:
+      para_action:
+        k_hv_direction:
+        - right
+        k_hv_speed:
+        - 40kph
+        hv_deviation:
+        - 30cm
+        k_hv_heading:
+        - "0(\u4E0D\u504F\u8F6C)"
+      para_odd:
+        default:
+        - any
+    group4:
+      para_action:
+        k_hv_direction:
+        - right
+        k_hv_speed:
+        - 60kph
+        hv_deviation:
+        - 30cm
+        k_hv_heading:
+        - "0(\u4E0D\u504F\u8F6C)"
+      para_odd:
+        curve:
+        - 700m_right
+    group5:
+      para_action:
+        k_hv_direction:
+        - left
+        - right
+        k_hv_speed:
+        - 40kph
+        k_hv_deviation:
+        - "0(\u4E0D\u504F\u79BB)"
+        k_hv_heading:
+        - "30\xB0"
+      para_odd:
+        default:
+        - any
+  CC_3_2:
+    group1:
+      para_action:
+        k_hv_direction:
+        - right
+        - left
+        k_hv_speed:
+        - 40kph
+      para_odd:
+        default:
+        - any
+  CC_17_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_18_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_19_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_19_2:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_20_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_20_2:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+noload_night_truck.yaml:
+  CC_4_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 70kph
+      para_odd:
+        default:
+        - any
+  CC_5_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 80kph
+        para_tv1_action2_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+  CC_6_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 1mpss
+        - ' 3mpss'
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 3mpss
+      para_odd:
+        downhill:
+        - any
+  CC_8_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_relativeHV:
+        - 300m
+      para_odd:
+        uphill:
+        - top of slope
+        downhill:
+        - base of slope
+        curve:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        para_tv1_init_relativeHV:
+        - 200m
+      para_odd:
+        uphill:
+        - top of slope
+        downhill:
+        - base of slope
+        curve:
+        - any
+  CC_8_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_relativeHV:
+        - 300m
+      para_odd:
+        uphill:
+        - any
+        downhill:
+        - any
+        curve:
+        - exit
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        para_tv1_init_relativeHV:
+        - 200m
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+  CC_9_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_triggerRelative:
+        - 100m
+        - ' 70m'
+      para_odd:
+        default:
+        - any
+  CC_10_1:
+    group1:
+      para_action:
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 80m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+  CC_11_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action2_triggerRelative:
+        - 50m
+      para_odd:
+        default:
+        - any
+  CC_12_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_duration:
+        - 3s
+      para_odd:
+        default:
+        - any
+  CC_13_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_deviation:
+        - "30cm(\u538B\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_13_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action1_triggerRelativeHV:
+        - 100m
+        para_tv1_action1_deviation:
+        - "30cm(\u538B\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_14_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_init_deviation:
+        - "0cm(\u5C45\u4E2D)"
+      para_odd:
+        curve:
+        - 700m_left
+  CC_14_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        - 20kph
+        para_tv1_init_deviation:
+        - "0cm(\u5C45\u4E2D)"
+      para_odd:
+        default:
+        - any
+night_sedan_sedan.yaml:
+  CC_23_1:
+    group1:
+      para_action:
+        k_tvF_speed01:
+        - 100kph
+        para_tv1_init_speed:
+        - 60kph
+        para_tv2_action3_speed:
+        - 40kph
+        para_tv2_action3_acc:
+        - 3mpss
+        para_tv2_action2_triggerRelative:
+        - 30m
+      para_odd:
+        default:
+        - any
+tunnel_middle.yaml:
+  CC_1_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_2_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_4_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 70kph
+      para_odd:
+        default:
+        - any
+  CC_5_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 40kph
+        k_tv_speed02:
+        - 80kph
+        k_tv_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_speed01:
+        - 0kph
+        k_tv_speed02:
+        - 40kph
+        k_tv_acc:
+        - 0.5mpss
+      para_odd:
+        default:
+        - any
+  CC_6_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 60kph
+        k_tv_speed02:
+        - 0kph
+        k_tv_acc:
+        - 3mpss
+      para_odd:
+        default:
+        - any
+  CC_7_1:
+    group1:
+      para_action:
+        k_tv_duration:
+        - 1min
+        - 3min
+      para_odd:
+        default:
+        - any
+  CC_8_2:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 0kph
+        k_relative_dis:
+        - 300m
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_speed:
+        - 20kph
+        k_relative_dis:
+        - 200m
+      para_odd:
+        default:
+        - any
+  CC_9_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 40kph
+        k_relative_dis:
+        - 70m
+      para_odd:
+        default:
+        - any
+  CC_10_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 100kph
+        k_tv_speed02:
+        - 40kph
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 40m
+      para_odd:
+        default:
+        - any
+  CC_11_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 100kph
+        k_relative_dis:
+        - 20m
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_speed:
+        - 120kph
+        k_relative_dis:
+        - 20m
+      para_odd:
+        default:
+        - any
+  CC_12_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+        k_tv_duration:
+        - 3s
+        - 7s
+      para_odd:
+        default:
+        - any
+  CC_13_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 0kph
+        k_tv_deviation:
+        - "30cm(\u538B\u7EBF)"
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_13_2:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+        k_relative_dis:
+        - 100m
+        k_tv_deviation:
+        - "30cm(\u538B\u7EBF)"
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+noload_sedan.yaml:
+  CC_4_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        - 70kph
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+      para_odd:
+        uphill:
+        - any
+    group3:
+      para_action:
+        para_tv1_init_speed:
+        - 70kph
+      para_odd:
+        downhill:
+        - any
+  CC_5_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 80kph
+        para_tv1_action2_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_action2_speed:
+        - 40kph
+        para_tv1_action2_acc:
+        - 0.5mpss
+        - 2mpss
+      para_odd:
+        default:
+        - any
+  CC_6_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 1mpss
+        - 3mpss
+        - 7mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 3mpss
+      para_odd:
+        downhill:
+        - any
+    group3:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 7mpss
+      para_odd:
+        default:
+        - any
+  CC_8_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_relativeHV:
+        - 300m
+      para_odd:
+        uphill:
+        - top of slope
+        downhill:
+        - base of slope
+        curve:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        para_tv1_init_relativeHV:
+        - 200m
+      para_odd:
+        uphill:
+        - top of slope
+        downhill:
+        - base of slope
+        curve:
+        - any
+  CC_8_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_relativeHV:
+        - 300m
+      para_odd:
+        uphill:
+        - any
+        downhill:
+        - any
+        curve:
+        - exit
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        para_tv1_init_relativeHV:
+        - 200m
+      para_odd:
+        default:
+        - any
+        curve:
+        - any
+  CC_9_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_triggerRelative:
+        - 80m
+        - 50m
+      para_odd:
+        default:
+        - any
+  CC_10_1:
+    group1:
+      para_action:
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 40m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 40kph
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 60m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+    group3:
+      para_action:
+        k_tv_acc:
+        - 5mpss
+        k_relative_dis:
+        - 80m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+  CC_11_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action2_triggerRelative:
+        - 20m
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 120kph
+        para_tv1_action2_triggerRelative:
+        - 20m
+      para_odd:
+        default:
+        - any
+  CC_12_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_duration:
+        - 3s
+      para_odd:
+        default:
+        - any
+  CC_12_2:
+    group1:
+      para_action:
+        k_tv_deviation:
+        - 50cm
+        k_tv_heading:
+        - "20\u5EA6"
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_acc:
+        - 3mpss
+      para_odd:
+        default:
+        - any
+  CC_13_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_deviation:
+        - "30cm(\u538B\u7EBF)"
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_13_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_triggerRelativeHV:
+        - 60m
+        para_tv1_action1_deviation:
+        - "30cm(\u538B\u7EBF)"
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_triggerRelativeHV:
+        - 60m
+        para_tv1_action1_deviation:
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_14_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_init_deviation:
+        - "0cm(\u5C45\u4E2D)"
+      para_odd:
+        default:
+        - any
+        curve:
+        - 700m_left
+  CC_14_2:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_deviation:
+        - "10cm(\u8D34\u8FD1\u4F46\u4E0D\u5165\u4FB5)"
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_init_deviation:
+        - "10cm(\u8D34\u8FD1\u4F46\u4E0D\u5165\u4FB5)"
+      para_odd:
+        curve:
+        - 700m_left
+  CC_14_3:
+    group1:
+      para_action:
+        para_tv1_init_deviation:
+        - "0cm(\u5C45\u4E2D)"
+        para_tv1_init_heading:
+        - "20\u5EA6"
+      para_odd:
+        default:
+        - any
+  CC_21_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_triggerRelativeHV:
+        - 50m
+      para_odd:
+        default:
+        - any
+  CC_21_3:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 120kph
+        para_tv1_action1_triggerRelativeHV:
+        - ' 50m'
+      para_odd:
+        default:
+        - any
+  CC_25_1:
+    group1:
+      para_action:
+        k_target_speed:
+        - 60kph
+        k_relative_dis:
+        - 20m
+        - 30m
+        - 40m
+      para_odd:
+        default:
+        - any
+  CC_25_2:
+    group1:
+      para_action:
+        k_target_speed:
+        - 20kph
+        k_hv_speed:
+        - 80kph
+        k_relative_dis:
+        - 100m
+        k_trigger_dis:
+        - 20m
+        - 30m
+        - 40m
+      para_odd:
+        default:
+        - any
+  CC_31_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_31_2:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_31_3:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_31_4:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_31_5:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_32_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_32_2:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_32_3:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_32_4:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 60kph
+        k_tv_speed02:
+        - 20kph
+        k_tv_acc:
+        - -3mpss
+      para_odd:
+        default:
+        - any
+  CC_32_5:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 60kph
+        k_tv_speed02:
+        - 20kph
+        k_tv_acc:
+        - -3mpss
+      para_odd:
+        default:
+        - any
+  CC_32_6:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 60kph
+        k_tv_speed02:
+        - 20kph
+        k_tv_acc:
+        - -3mpss
+      para_odd:
+        default:
+        - any
+  CC_32_7:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 100kph
+        k_tv_speed02:
+        - 60kph
+        k_tv_acc:
+        - -3mpss
+        k_relative:
+        - 40m
+      para_odd:
+        default:
+        - any
+  CC_32_8:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 100kph
+        k_tv_speed02:
+        - 60kph
+        k_tv_acc:
+        - -3mpss
+        k_relative:
+        - 40m
+      para_odd:
+        default:
+        - any
+  CC_32_9:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 100kph
+        k_tv_speed02:
+        - 60kph
+        k_tv_acc:
+        - -3mpss
+        k_relative:
+        - 40m
+      para_odd:
+        default:
+        - any
+  CC_32_10:
+    group1:
+      para_action:
+        k_relative:
+        - 120m
+      para_odd:
+        default:
+        - any
+  CC_32_11:
+    group1:
+      para_action:
+        k_relative:
+        - 120m
+      para_odd:
+        default:
+        - any
+  CC_32_12:
+    group1:
+      para_action:
+        k_relative:
+        - 120m
+      para_odd:
+        default:
+        - any
+  CC_33_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 60kph
+        k_tv_speed02:
+        - 20kph
+        k_tv_acc:
+        - -3mpss
+      para_odd:
+        default:
+        - any
+  CC_33_2:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 100kph
+        k_relative:
+        - 40m
+        k_tv_speed02:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_33_3:
+    group1:
+      para_action:
+        k_relative:
+        - 120m
+      para_odd:
+        default:
+        - any
+  CC_33_4:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 60kph
+        k_tv_speed02:
+        - 20kph
+        k_tv_acc:
+        - -3mpss
+      para_odd:
+        default:
+        - any
+  CC_33_5:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 100kph
+        k_relative:
+        - 40m
+        k_tv_speed02:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_33_6:
+    group1:
+      para_action:
+        k_relative:
+        - 120m
+      para_odd:
+        default:
+        - any
+  CC_41_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_41_2:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_41_3:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_41_4:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_41_5:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_41_6:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_41_7:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_41_8:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+payload_sedan.yaml:
+  CC_4_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+        - 60kph
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 20kph
+      para_odd:
+        uphill:
+        - any
+    group3:
+      para_action:
+        para_tv1_init_speed:
+        - 70kph
+      para_odd:
+        downhill:
+        - any
+  CC_5_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 80kph
+        para_tv1_action2_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_action2_speed:
+        - 40kph
+        para_tv1_action2_acc:
+        - 0.5mpss
+      para_odd:
+        default:
+        - any
+  CC_6_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 1mpss
+        - 3mpss
+        - 7mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 3mpss
+      para_odd:
+        downhill:
+        - any
+    group3:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 7mpss
+      para_odd:
+        default:
+        - any
+  CC_9_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_triggerRelative:
+        - 80m
+        - 50m
+      para_odd:
+        default:
+        - any
+  CC_10_1:
+    group1:
+      para_action:
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 60m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_acc:
+        - 5mpss
+        k_relative_dis:
+        - 80m
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action3_speed:
+        - 0kph
+      para_odd:
+        default:
+        - any
+  CC_11_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action2_triggerRelative:
+        - 20m
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 120kph
+        para_tv1_action2_triggerRelative:
+        - 20m
+      para_odd:
+        default:
+        - any
+  CC_12_2:
+    group1:
+      para_action:
+        k_tv_deviation:
+        - 50cm
+        k_tv_heading:
+        - "20\u5EA6"
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action1_acc:
+        - 3mpss
+      para_odd:
+        default:
+        - any
+  CC_25_1:
+    group1:
+      para_action:
+        k_target_speed:
+        - 60kph
+        k_relative_dis:
+        - 20m
+        - 30m
+        - 40m
+      para_odd:
+        default:
+        - any
+  CC_25_2:
+    group1:
+      para_action:
+        k_target_speed:
+        - 20kph
+        k_hv_speed:
+        - 80kph
+        k_relative_dis:
+        - 100m
+        k_trigger_dis:
+        - 20m
+        - 30m
+        - 40m
+      para_odd:
+        default:
+        - any
+day_sedan_truck.yaml:
+  CC_24_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv2_init_relativeTV1:
+        - 20m
+      para_odd:
+        default:
+        - any
+noload_none.yaml:
+  CC_1_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+      para_odd:
+        curve:
+        - 700m
+  CC_2_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 30kph
+        - 60kph
+        - 80kph
+        - 100kph
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_hv_speed:
+        - 30kph
+      para_odd:
+        uphill:
+        - any
+    group3:
+      para_action:
+        k_hv_speed:
+        - 80kph
+      para_odd:
+        downhill:
+        - any
+  CC_3_1:
+    group1:
+      para_action:
+        k_hv_direction:
+        - left
+        k_hv_speed:
+        - 60kph
+        k_hv_deviation:
+        - 30cm
+        k_hv_heading:
+        - "0(\u4E0D\u504F\u8F6C)"
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_hv_direction:
+        - left
+        k_hv_speed:
+        - 60kph
+        hv_deviation:
+        - 30cm
+        k_hv_heading:
+        - "0(\u4E0D\u504F\u8F6C)"
+      para_odd:
+        curve:
+        - 700m_right
+    group3:
+      para_action:
+        k_hv_direction:
+        - right
+        k_hv_speed:
+        - 60kph
+        hv_deviation:
+        - 30cm
+        k_hv_heading:
+        - "0(\u4E0D\u504F\u8F6C)"
+      para_odd:
+        default:
+        - any
+    group4:
+      para_action:
+        k_hv_direction:
+        - right
+        k_hv_speed:
+        - 60kph
+        hv_deviation:
+        - 30cm
+        k_hv_heading:
+        - "0(\u4E0D\u504F\u8F6C)"
+      para_odd:
+        curve:
+        - 700m_right
+    group5:
+      para_action:
+        k_hv_direction:
+        - left
+        - right
+        k_hv_speed:
+        - 40kph
+        k_hv_deviation:
+        - "0(\u4E0D\u504F\u79BB)"
+        k_hv_heading:
+        - "30\xB0"
+      para_odd:
+        default:
+        - any
+  CC_3_2:
+    group1:
+      para_action:
+        k_hv_direction:
+        - right
+        - left
+        k_hv_speed:
+        - 40kph
+      para_odd:
+        default:
+        - any
+  CC_16_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_16_2:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_16_3:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_16_4:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_16_5:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_17_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_18_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_19_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_19_2:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_20_1:
+    group1:
+      para_action:
+        k_speed_limit:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_20_2:
+    group1:
+      para_action:
+        k_speed_limit:
+        - 80kph
+      para_odd:
+        default:
+        - any
+  CC_26_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_26_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_26_3:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_27_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_27_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_27_3:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_28_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_28_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_29_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_29_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_29_3:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_29_4:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_29_5:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_30_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        k_headway_setting_interval:
+        - 3s
+      para_odd:
+        default:
+        - any
+  CC_30_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        k_headway_setting_interval:
+        - 3s
+      para_odd:
+        default:
+        - any
+  CC_30_3:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        k_headway_setting_interval:
+        - 3s
+      para_odd:
+        default:
+        - any
+  CC_30_4:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        k_headway_setting_interval:
+        - 3s
+      para_odd:
+        default:
+        - any
+  CC_30_5:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        k_headway_setting_interval:
+        - 3s
+      para_odd:
+        default:
+        - any
+  CC_34_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_34_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_35_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_35_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_35_3:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_36_1:
+    group1:
+      para_action:
+        k_speed_limit:
+        - 80kph
+        k_speed_odd:
+        - 100kph
+        k_hv_speed:
+        - 30kph
+      para_odd:
+        default:
+        - any
+  CC_36_2:
+    group1:
+      para_action:
+        k_speed_limit:
+        - 80kph
+        k_speed_odd:
+        - 100kph
+        k_hv_speed:
+        - 90kph
+      para_odd:
+        default:
+        - any
+  CC_36_3:
+    group1:
+      para_action:
+        k_speed_limit:
+        - 80kph
+        k_speed_odd:
+        - 100kph
+        k_hv_speed:
+        - 110kph
+      para_odd:
+        default:
+        - any
+  CC_37_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 80kph
+        k_time_long_press_thresshold:
+        - 2s
+      para_odd:
+        default:
+        - any
+  CC_37_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 80kph
+        k_time_long_press_thresshold:
+        - 2s
+      para_odd:
+        default:
+        - any
+  CC_37_3:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 80kph
+        k_time_long_press_thresshold:
+        - 2s
+      para_odd:
+        default:
+        - any
+  CC_37_4:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 80kph
+        k_time_long_press_thresshold:
+        - 2s
+      para_odd:
+        default:
+        - any
+  CC_37_5:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 80kph
+        k_time_long_press_thresshold:
+        - 2s
+      para_odd:
+        default:
+        - any
+  CC_37_6:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 80kph
+        k_time_long_press_thresshold:
+        - 2s
+      para_odd:
+        default:
+        - any
+  CC_38_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+        K_TIME_LONG_PRESS_THRESHOLD:
+        - 5s
+      para_odd:
+        default:
+        - any
+  CC_39_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 30kph
+      para_odd:
+        default:
+        - any
+  CC_39_2:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 70kph
+      para_odd:
+        default:
+        - any
+  CC_40_1:
+    group1:
+      para_action:
+        k_hv_speed01:
+        - 40kph
+        k_hv_speed02:
+        - 70kph
+      para_odd:
+        default:
+        - any
+  CC_40_2:
+    group1:
+      para_action:
+        k_hv_speed01:
+        - 70kph
+        k_hv_speed02:
+        - 40kph
+      para_odd:
+        default:
+        - any
+  CC_40_3:
+    group1:
+      para_action:
+        k_hv_speed01:
+        - 40kph
+        k_hv_speed02:
+        - 70kph
+      para_odd:
+        default:
+        - any
+  CC_40_4:
+    group1:
+      para_action:
+        k_hv_speed01:
+        - 70kph
+        k_hv_speed02:
+        - 40kph
+      para_odd:
+        default:
+        - any
+  CC_40_5:
+    group1:
+      para_action:
+        k_hv_speed01:
+        - 30kph
+        k_hv_speed02:
+        - 70kph
+      para_odd:
+        default:
+        - any
+  CC_40_6:
+    group1:
+      para_action:
+        k_hv_speed01:
+        - 70kph
+        k_hv_speed02:
+        - 30kph
+      para_odd:
+        default:
+        - any
+tunnel_entering.yaml:
+  CC_1_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_2_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_4_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 70kph
+      para_odd:
+        default:
+        - any
+  CC_5_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 40kph
+        k_tv_speed02:
+        - 80kph
+        k_tv_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_speed01:
+        - 0kph
+        k_tv_speed02:
+        - 40kph
+        k_tv_acc:
+        - 0.5mpss
+      para_odd:
+        default:
+        - any
+  CC_6_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 60kph
+        k_tv_speed02:
+        - 0kph
+        k_tv_acc:
+        - 3mpss
+      para_odd:
+        default:
+        - any
+  CC_8_2:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 0kph
+        k_relative_dis:
+        - 300m
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_speed:
+        - 20kph
+        k_relative_dis:
+        - 200m
+      para_odd:
+        default:
+        - any
+  CC_9_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 40kph
+        k_relative_dis:
+        - 70m
+      para_odd:
+        default:
+        - any
+  CC_10_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 100kph
+        k_tv_speed02:
+        - 40kph
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 40m
+      para_odd:
+        default:
+        - any
+  CC_11_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 100kph
+        k_relative_dis:
+        - 20m
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_speed:
+        - 120kph
+        k_relative_dis:
+        - 20m
+      para_odd:
+        default:
+        - any
+  CC_13_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 0kph
+        k_tv_deviation:
+        - "30cm(\u538B\u7EBF)"
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_13_2:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+        k_relative_dis:
+        - 100m
+        k_tv_deviation:
+        - "30cm(\u538B\u7EBF)"
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+payload_truck.yaml:
+  CC_4_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_5_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 80kph
+        para_tv1_action2_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_action2_speed:
+        - 40kph
+        para_tv1_action2_acc:
+        - 0.5mpss
+      para_odd:
+        default:
+        - any
+  CC_6_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 1mpss
+        - ' 3mpss'
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_speed:
+        - 0kph
+        para_tv1_action2_acc:
+        - 3mpss
+      para_odd:
+        downhill:
+        - any
+  CC_9_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_triggerRelative:
+        - 100m
+        - ' 70m'
+      para_odd:
+        default:
+        - any
+  CC_11_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 100kph
+        para_tv1_action2_triggerRelative:
+        - 50m
+      para_odd:
+        default:
+        - any
+tunnel_exiting.yaml:
+  CC_1_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_2_1:
+    group1:
+      para_action:
+        k_hv_speed:
+        - 60kph
+      para_odd:
+        default:
+        - any
+  CC_4_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 70kph
+      para_odd:
+        default:
+        - any
+  CC_5_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 40kph
+        k_tv_speed02:
+        - 80kph
+        k_tv_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_speed01:
+        - 0kph
+        k_tv_speed02:
+        - 40kph
+        k_tv_acc:
+        - 0.5mpss
+      para_odd:
+        default:
+        - any
+  CC_6_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 60kph
+        k_tv_speed02:
+        - 0kph
+        k_tv_acc:
+        - 3mpss
+      para_odd:
+        default:
+        - any
+  CC_8_2:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 0kph
+        k_relative_dis:
+        - 300m
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_speed:
+        - 20kph
+        k_relative_dis:
+        - 200m
+      para_odd:
+        default:
+        - any
+  CC_9_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 40kph
+        k_relative_dis:
+        - 70m
+      para_odd:
+        default:
+        - any
+  CC_10_1:
+    group1:
+      para_action:
+        k_tv_speed01:
+        - 100kph
+        k_tv_speed02:
+        - 40kph
+        k_tv_acc:
+        - 3mpss
+        k_relative_dis:
+        - 40m
+      para_odd:
+        default:
+        - any
+  CC_11_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 100kph
+        k_relative_dis:
+        - 20m
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        k_tv_speed:
+        - 120kph
+        k_relative_dis:
+        - 20m
+      para_odd:
+        default:
+        - any
+  CC_13_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 0kph
+        k_tv_deviation:
+        - "30cm(\u538B\u7EBF)"
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+  CC_13_2:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+        k_relative_dis:
+        - 100m
+        k_tv_deviation:
+        - "30cm(\u538B\u7EBF)"
+        - "50cm(1/4\u8F66\u8EAB\u8FC7\u7EBF)"
+      para_odd:
+        default:
+        - any
+noload_night_none.yaml:
+  CC_1_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+      para_odd:
+        curve:
+        - 700m
+  CC_16_1:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_16_2:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_16_3:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_16_4:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_16_5:
+    group1:
+      para_action:
+      para_odd:
+        default:
+        - any
+  CC_21_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+        k_relative_dis:
+        - 50m
+      para_odd:
+        default:
+        - any
+  CC_21_3:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 120kph
+        k_relative_dis:
+        - ' 50m'
+      para_odd:
+        default:
+        - any
+  CC_22_1:
+    group1:
+      para_action:
+        k_tv_speed:
+        - 60kph
+        k_relative_dis:
+        - 50m
+      para_odd:
+        default:
+        - any
+payload_night_sedan.yaml:
+  CC_5_1:
+    group1:
+      para_action:
+        para_tv1_init_speed:
+        - 40kph
+        para_tv1_action2_speed:
+        - 80kph
+        para_tv1_action2_acc:
+        - 1mpss
+      para_odd:
+        default:
+        - any
+    group2:
+      para_action:
+        para_tv1_init_speed:
+        - 0kph
+        para_tv1_action2_speed:
+        - 40kph
+        para_tv1_action2_acc:
+        - 0.5mpss
+        - 2mpss
+      para_odd:
+        default:
+        - any
+night_sedan_truck.yaml:
+  CC_24_2:
+    group1:
+      para_action:
+        para_tv2_init_speed:
+        - 10kph
+        para_tv1_init_speed:
+        - 60kph
+        para_tv1_action2_triggerRelativeTV2:
+        - 20m
+      para_odd:
+        default:
+        - any
